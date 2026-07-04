@@ -5,14 +5,22 @@
 # 數字太小 要提示「請輸入更大的數字」
 # 使用者猜對要回傳「恭喜中獎」
 
+answer = 60
 
+while True:
+   
+    s = int(input("請輸入數字: "))
+    
+    if  s == answer:
+         print("恭喜中獎!")
+   
+    elif
+    
+    elif answer < s:
 
-
-
-
-
-
-
-
-
-
+         print("請輸入更小的數字")
+   
+    else:
+         print("請輸入更大的數字")
+    
+    break
