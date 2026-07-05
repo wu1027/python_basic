@@ -8,10 +8,10 @@ def get_discount(total, discount=200):
         total -= discount * cnt
 
     return total
-if__name__ == "__main__":
 
-
-# 測試模組
-pow(2, 4)
-result = get_discount(5000)
-print(f"折扣後金額:{result}元")
+print(f"mymodule.py 的 __name__: {__name__}")
+if __name__ == "__main__":
+    # 測試模組
+    pow(2, 4)
+    result = get_discount(5000)
+    print(f"折扣後金額:{result}元")
